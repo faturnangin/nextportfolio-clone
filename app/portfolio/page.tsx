@@ -67,7 +67,7 @@ export default function PortfolioPage() {
                     More stuff are coming!
                 </h5>
                 <p className="text-sm text-gray-600 dark:text-gray-300">
-                    Don't seems to like what you see here? I'ts okay, i never stop learning, we all start somewhere 😎
+                    Don&apos;t seems to like what you see here? I&apos;ts okay, i never stop learning, we all start somewhere 😎
                 </p>
                 </div>
             </div>
