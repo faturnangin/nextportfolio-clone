@@ -17,12 +17,12 @@ export const navConst = [
 export const serviceConst = [
     {
         title: "Graphic Design",
-        desc:"I'm all about making visuals pop. Content creation, graphics, and designs – I craft eye-catching elements that tell stories and capture attention.",
+        desc:"&apos; all about making visuals pop. Content creation, graphics, and designs – I craft eye-catching elements that tell stories and capture attention.",
         img:"/baloon.png"
     },
     {
         title: "UI / UX Design",
-        desc:"I'm the bridge between users and digital interfaces. I create designs that are easy to use and making technology feel like second nature.",
+        desc:"&apos; the bridge between users and digital interfaces. I create designs that are easy to use and making technology feel like second nature.",
         img:"/figma3d.png"
     },
     {

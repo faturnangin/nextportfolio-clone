@@ -7,7 +7,7 @@ export default function Expertise() {
             <div className='mx-6 md:mx-12 lg:mx-24'>
             <div className="lg:flex flex-wrap items-center justify-center md:justify-between w-full">
                 <div className='md:w-1/2'>
-                    <h1 className="sm:mx-auto font-black text-blue-900 text-4xl text-center sm:text-5xl md:text-4xl lg:w-auto lg:text-left dark:text-white">Hi!👋🏻 I'm <br className="lg:block hidden"/> <span className="xl:text-7xl md:text-6xl sm:text-5xl text-4xl relative text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 dark:from-sky-400 dark:to-slate-300">Fatur Nangin</span></h1>
+                    <h1 className="sm:mx-auto font-black text-blue-900 text-4xl text-center sm:text-5xl md:text-4xl lg:w-auto lg:text-left dark:text-white">Hi!👋🏻 I&apos;m <br className="lg:block hidden"/> <span className="xl:text-7xl md:text-6xl sm:text-5xl text-4xl relative text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 dark:from-sky-400 dark:to-slate-300">Fatur Nangin</span></h1>
                     <div className="relative mt-4 md:mt-0 space-y-4 lg:ml-0 sm:mx-auto text-center lg:text-left lg:mr-auto">
                     <p className="sm:text-lg text-gray-700 dark:text-gray-300">Visual Enthusiast, Fullstack Developer</p>
                     <p className="sm:text-lg text-gray-500 dark:text-gray-100">

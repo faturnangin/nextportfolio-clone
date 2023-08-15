@@ -11,7 +11,7 @@ export default function Services() {
           title="Transforming Ideas into Engaging Digital Experiences."
           textStyles="text-center"
         />
-        <TypingText title="| That's what i do in a nutshell" textStyles="text-center mt-2" />
+        <TypingText title="| That&apos;s what i do in a nutshell" textStyles="text-center mt-2" />
       </div>
       <div className="mt-16 grid gap-8 sm:w-2/3 mx-auto md:w-full md:grid-cols-2 lg:grid-cols-3">
         
