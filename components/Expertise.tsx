@@ -38,8 +38,8 @@ export default function Expertise() {
                     <div className="dark:text-gray-300">
                         🤙🏻
                         <span>Other integrations :</span> 
-                        <a href="#" className="font-semibold text-gray-700 dark:text-gray-200">GitHub,</a>
-                        <a href="#" className="font-semibold text-gray-700 dark:text-gray-200">Instagram</a>
+                        <a href="https://github.com/faturnangin" className="font-semibold text-gray-700 dark:text-gray-200">GitHub,</a>
+                        <a href="https://www.instagram.com/nangin.tech" className="font-semibold text-gray-700 dark:text-gray-200">Instagram</a>
                     </div>
                     <div className="flex gap:2 md:gap-4 justify-between items-center">
                         <span className='font-semibold text-gray-700 dark:text-gray-200 hidden md:block'>Tech Stack :</span>

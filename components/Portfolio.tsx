@@ -10,7 +10,7 @@ export default function Portfolio() {
           title="My Previous Work."
           textStyles="text-center"
         />
-        <TypingText title="| Check out my portfolio page for" textStyles="text-center mt-2" />
+        <TypingText title="| Check out my portfolio page for details" textStyles="text-center mt-2" />
       </div>
       <div className="mt-16 grid gap-8 sm:w-2/3 mx-auto md:w-full md:grid-cols-3 lg:grid-cols-3">
         
