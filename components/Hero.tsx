@@ -15,7 +15,7 @@ export default function Hero() {
                         
                         <div className='w-full md:w-[65%] flex flex-col space-y-4 rounded-xl p-4 '>
                             <div className=''>
-                            <span className={`block text-md md:text-lg lg:text-xl font-medium`}>Hi 👋🏻, I'm Nangin</span>
+                            <span className={`block text-md md:text-lg lg:text-xl font-medium`}>Hi👋🏻, I&apos;m Nangin</span>
                             <span className={`${clashDisplay.className} block text-center md:text-start text-3xl md:text-3xl lg:text-4xl font-bold tracking-wider text-gray-900 dark:text-white`}>I transform ideas💡 into engaging <span className='bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-cyan-400'>digital experiences.</span></span>
                             </div>
                             <span className={`block font-medium text-gray-500 dark:text-gray-400 text-center md:text-start`}>1+ YoE Visual Designer & Fullstack Developer. </span>
