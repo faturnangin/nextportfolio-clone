@@ -17,14 +17,11 @@ export default function RootLayout({children,}: {children: React.ReactNode}) {
   return (
     <ServerThemeProvider attribute="class">
       <html lang="en">
+      {/* <body className={`${inter.className} bg-white dark:bg-[url('/bg-element.svg')] transition-colors duration-1000 ease-in-out`}> */}
       <body className={`${inter.className} bg-white dark:bg-gray-900 transition-colors duration-1000 ease-in-out`}>
         <Provider>
         <Navbar/>
         {children}
-          <div className='fixed bottom-6 right-6 md:hidden animate-bounce'>
-            <ThemeButton/>
-          </div>
-        <Footer/>
         </Provider>
       </body>
     </html>

@@ -22,7 +22,7 @@ export default function BlogPage() {
       return `${months[parseInt(month, 10) - 1]} ${day} ${year}`;
     }
   return (
-    <div className="container mx-auto mt-32">
+    <div className="container mx-auto mt-16">
     <div className='mx-6 md:mx-12 lg:mx-24'>
         <div> <TitleText title="Blog." textStyles=""/></div>
         <div className="w-full">

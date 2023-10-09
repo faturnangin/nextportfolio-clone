@@ -10,15 +10,15 @@ export const metadata: Metadata = {
 
 export default function PortfolioPage() {
   return (
-    <div className="container mx-auto mt-32">
+    <div className="container mx-auto mt-16">
     <div className='mx-6 md:mx-12 lg:mx-24'>
         <div> <TitleText title="Portfolio." textStyles=""/>
         <div
             className="mt-16 grid divide-x divide-y divide-gray-100 dark:divide-gray-700 overflow-hidden rounded-2xl border border-gray-100 dark:border-gray-700 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4"
         >
             {serviceConst.map((item,index)=>(
-                <div key={index} className="group relative bg-white dark:bg-gray-800 dark:hover:bg-gray-800/50 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
-                <div className="relative space-y-8 py-12 p-8">
+                <div key={index} className="group relative h-fit bg-white dark:bg-gray-800 dark:hover:bg-gray-800/50 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+                <div className="relative space-y-2 p-6">
                     <img
                     src={item.img}
                     className="w-12"
@@ -33,9 +33,9 @@ export default function PortfolioPage() {
                     >
                         {item.title}
                     </h5>
-                    <p className="text-sm text-gray-600 dark:text-gray-300">
+                    {/* <p className="text-sm text-gray-600 dark:text-gray-300">
                         {item.desc}
-                    </p>
+                    </p> */}
                     </div>
                     <a href="#" className="flex items-center justify-between group-hover:text-primary">
                     <span className="text-sm">Explore</span>
@@ -47,10 +47,9 @@ export default function PortfolioPage() {
                 </div>
             ))}
 
-            <div className="group relative bg-gray-50 dark:bg-gray-900 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10"
-            >
+            <div className="group relative h-full bg-gray-50 dark:bg-gray-900 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
             <div
-                className="relative h-full space-y-8 py-12 p-8 transition duration-300 group-hover:bg-white dark:group-hover:bg-gray-800"
+                className="relative h-full space-y-2 p-6 transition duration-300 group-hover:bg-white dark:group-hover:bg-gray-800"
             >
                 <img
                 src="/idea.png"
@@ -64,11 +63,11 @@ export default function PortfolioPage() {
                 <h5
                     className="text-xl font-medium text-gray-700 dark:text-white transition group-hover:text-primary"
                 >
-                    More stuff are coming!
+                    Awesome stuff are coming!
                 </h5>
-                <p className="text-sm text-gray-600 dark:text-gray-300">
+                {/* <p className="text-sm text-gray-600 dark:text-gray-300">
                     Don&apos;t seems to like what you see here? I&apos;ts okay because i&apos;ll never stop learning, we all start somewhere 😎
-                </p>
+                </p> */}
                 </div>
             </div>
             </div>

@@ -1,8 +1,8 @@
 'use client';
-
+import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { footerVariants } from '../utils/motion';
-
+import { ButtonIcon } from '../components';
 const Footer = () => (
   <motion.footer
     variants={footerVariants}
@@ -17,14 +17,14 @@ const Footer = () => (
             <h4 className="font-bold md:text-2xl text-2xl">
             Get In Touch
             </h4>
-            <button type="button" className="flex items-center h-fit py-2 px-4 bg-cyan-700 rounded-xl gap-[12px]">
+            <Link href='mailto:workwithnangin@gmail.com' className="flex items-center h-fit py-2 px-4 bg-cyan-700 rounded-xl gap-[12px]">
             <img
-                src="/link.svg"
-                alt="link"
-                className="w-[24px] h-[24px] object-contain invert"
+                src="/mail.svg"
+                alt="mail"
+                className="w-[24px] h-[24px] object-contain"
                 />
             <span className="font-normal text-white text-[16px]">Connect</span>
-            </button>
+            </Link>
     </div>
 
     <div className="flex flex-col mb-4">

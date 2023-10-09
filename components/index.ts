@@ -6,9 +6,13 @@ import Services from "./Services";
 import Footer from "./Footer";
 import Portfolio from "./Portfolio";
 import Blog from "./Blog";
+import ButtonIcon from "./ButtonIcon";
 import { TypingText } from "./CustomText";
+import Hero from "./Hero";
 
 export{
+    Hero,
+    ButtonIcon,
     Navbar,
     PostCard,
     ThemeButton,

@@ -24,7 +24,7 @@ export const TitleText = ({ title, textStyles }:TypingTextParams) => (
     variants={textVariant2}
     initial="hidden"
     whileInView="show"
-    className={`text-2xl font-bold text-gray-800 dark:text-white md:text-4xl ${textStyles}`}
+    className={`text-2xl font-bold text-gray-800 dark:text-white md:text-3xl ${textStyles}`}
   >
     {title}
   </motion.h2>

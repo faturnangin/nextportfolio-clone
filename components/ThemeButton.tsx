@@ -17,7 +17,7 @@ export default function ThemeButton() {
 
   const light = theme === "light";
   return (
-    <button className="bg-slate-300/30 dark:bg-slate-100/30 p-2 rounded-2xl text-slate-900 dark:text-slate-50 border border-slate-400">
+    <button className="bg-transparent h-10 w-10 flex items-center justify-center  p-2 rounded-xl text-slate-900 dark:text-slate-50 border border-gray-400 dark:border-gray-700">
       {light ? (
         <svg
         onClick={() => setTheme("dark")}

@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import { ButtonIcon } from '../components'
 export default function Expertise() {
   return (
     <section id='hero' className='mt-32'>
@@ -18,21 +19,8 @@ export default function Expertise() {
                         <span className="block font-semibold text-gray-500 dark:text-gray-400">Currently Available for Hiring. </span>
                     </div>
                     <div className="grid grid-cols-2 space-x-4 md:space-x-6 md:flex md:justify-center lg:justify-start">
-                        {/* <Link href="/resume.pdf" locale={false}>Download</Link> */}
-                        <button className="p-2 md:p-4 border border-gray-200 dark:bg-gray-800 dark:border-gray-700 rounded-2xl duration-300 hover:border-cyan-400 hover:shadow-lg hover:shadow-cyan-600/20 dark:hover:border-cyan-300/30">
-                        <Link href="/resume.pdf" locale={false}>
-                            <div className="flex items-center justify-center space-x-2">
-                                <img className="w-8 h-8" src="/docs.png" alt="resume" width="128" height="128"/>
-                                <span className="font-medium block dark:text-white">Resume</span>
-                            </div>
-                        </Link>
-                        </button>    
-                        <a href="mailto:workwithnangin@gmail.com" className="p-2 md:p-4 border border-gray-200 dark:bg-gray-800  dark:border-gray-700 rounded-2xl duration-300 hover:border-green-400 hover:shadow-lg hover:shadow-blue-600/20 dark:hover:border-cyan-300/30"> 
-                            <div className="flex items-center justify-center space-x-2">
-                                <img className="w-8 h-8" src="connect.png" alt="chat logo" width="128" height="128"/>
-                                <span className="md:font-medium block dark:text-white">Contact</span>
-                            </div>
-                        </a>   
+                       <ButtonIcon text='Resume' iconsrc="/docs.png" link='/resume.pdf' />
+                       <ButtonIcon text='Contact' iconsrc="/connect.png" link="mailto:workwithnangin@gmail.com" />
                     </div>
 
                     <div className="dark:text-gray-300">
