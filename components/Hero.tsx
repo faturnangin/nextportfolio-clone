@@ -26,8 +26,8 @@ export default function Hero() {
                                 <span className="block font-semibold text-gray-500 dark:text-gray-200">Currently Available for Hiring. </span>
                             </div>
                             <div className='flex justify-center md:justify-start space-x-2'>
-                                <ButtonIcon text='My Resume' iconsrc='/docs.png' link=''/>
-                                <ButtonIcon text='Contact Me' iconsrc='/connect.png' link='mailto:workwithnangin@gmail.com'/>
+                                <ButtonIcon text='Resume' iconsrc='/docs.png' link=''/>
+                                <ButtonIcon text='Contact' iconsrc='/connect.png' link='mailto:workwithnangin@gmail.com'/>
                             </div>
                         </div>
 

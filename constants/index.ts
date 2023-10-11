@@ -6,11 +6,11 @@ export const navConst = [
     },
     {
         name: "Portfolio",
-        link: "/portfolio"
+        link: "/#portfolio"
     },
     {
         name: "Blog",
-        link: "/blog"
+        link: "/#blog"
     }
 ];
 
