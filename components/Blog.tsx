@@ -3,9 +3,9 @@ import { TitleText, TypingText } from './CustomText'
 import { blogConst } from '@/constants'
 export default function Blog() {
     return (
-    <section id='blog' className='mt-16'>
+    <section id='blog'>
         <div className="container mx-auto">
-        <div className='mx-6 md:mx-12 lg:mx-24'>
+        <div className='px-6 md:px-12 lg:px-24 py-6'>
         <div className='mb-16'>
         <TitleText
           title="Blog."
@@ -14,7 +14,7 @@ export default function Blog() {
         <TypingText title="| I&apos;m a journalist at ❤️" textStyles="text-center mt-2" />
         </div>
         {blogConst.map((item,index)=>(
-          <div key={index} className="mb-4 flex relative md:flex-row flex-col gap-4 p-6 rounded-2xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-xl dark:shadow-gray-600/30">
+          <div key={index} className="mb-4 flex relative md:flex-row flex-col gap-4 p-6 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-xl dark:shadow-gray-600/30">
           <img
               src={item.img}
               alt="thumbnail"

@@ -46,10 +46,8 @@ const Navbar = () => {
 
         <div className="px-6 md:px-12 lg:px-24 flex items-center justify-between dark:text-white">
           
-          <button className='h-10 w-10 flex items-center justify-center bg-transparent dark:bg-gray-800/30 p-2 border border-gray-400 dark:border-gray-700 rounded-xl md:hidden' onClick={toggleNav}>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 dark:text-slate-100 text-slate-800">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
-            </svg>
+          <button className='h-10 w-10 flex items-center justify-center bg-transparent dark:bg-gray-800/30 p-2 border border-gray-200 dark:border-gray-700 rounded-xl md:hidden' onClick={toggleNav}>
+            <img src="/hamburger.svg" alt="menu" />
             <ul ref={mobileNav} className='hidden fixed left-6 top-16 space-y-4'>
               {navConst.map((item,index)=> (
                 <li key={index} className='p-2 border border-gray-200 bg-slate-50/95 dark:bg-gray-800/90 dark:border-gray-700 rounded-2xl hover:border-cyan-400 hover:shadow-lg hover:shadow-cyan-600/20 dark:hover:border-cyan-300/30 text-center'><Link href={item.link}>{item.name}</Link></li>
@@ -57,14 +55,14 @@ const Navbar = () => {
             </ul>
           </button>
           
-          <div className='flex justify-center items-center p-2 border border-gray-400 dark:border-gray-600 rounded-xl h-10 w-10 hover:opacity-50'>
+          <div className='flex justify-center items-center p-2 rounded-xl h-10 w-10 hover:opacity-50'>
             <Link href="/"><img className='h-8 w-8' src="/icon.svg" alt="" /></Link>
           </div>
 
           <div className="hidden md:flex md:justify-end md:items-center md:gap-8 font-semibold dark:text-slate-50">
-            <Link href='/' className='text-base font-normal p-2 border border-gray-400 dark:border-gray-600 rounded-xl h-10 bg-transparent flex justify-center items-center hover:opacity-50'>Home</Link>
-            <Link href='/portfolio' className='text-base font-normal p-2 border border-gray-400 dark:border-gray-600 rounded-xl h-10 bg-transparent flex justify-center items-center hover:opacity-50'>Portfolio</Link>
-            <Link href='/blog' className='text-base font-normal p-2 border border-gray-400 dark:border-gray-600 rounded-xl h-10 bg-transparent flex justify-center items-center hover:opacity-50'>Insight</Link>
+            <Link href='/' className='text-base font-medium p-2 border border-gray-200 dark:border-gray-600 hover:border-cyan-400 dark:hover:border-cyan-300/30 transition duration-300 rounded-3xl h-10 bg-transparent flex justify-center items-center'>Home</Link>
+            <Link href='/#portfolio' className='text-base font-medium p-2 border border-gray-200 dark:border-gray-600 hover:border-cyan-400 dark:hover:border-cyan-300/30 transition duration-300 rounded-3xl h-10 bg-transparent flex justify-center items-center'>Portfolio</Link>
+            <Link href='/#blog' className='text-base font-medium p-2 border border-gray-200 dark:border-gray-600 hover:border-cyan-400 dark:hover:border-cyan-300/30 transition duration-300 rounded-3xl h-10 bg-transparent flex justify-center items-center'>Insight</Link>
             <ThemeButton/>
           </div>
           
